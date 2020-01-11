@@ -1,0 +1,5 @@
+print(type(1))
+print(__builtins__.type('Fala Galera!'))
+print(__builtins__.print(5 + 5))
+#help(dir)
+print(dir())

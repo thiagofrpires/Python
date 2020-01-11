@@ -1,0 +1,13 @@
+pessoa = {'nome': 'Thiago', 'idade': 23, 'cursos': ['web moderno', 'powerbi', 'msproject', 'machine learning']}
+print(pessoa)
+print(type(pessoa))
+print(dir(pessoa))
+print(len(pessoa))
+print(pessoa['nome'])
+print(pessoa['idade'])
+print(pessoa['cursos'])
+print(pessoa['cursos'][3])
+print(pessoa.keys())
+print(pessoa.values())
+print(pessoa.items())
+print(pessoa.get('idade'))

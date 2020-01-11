@@ -1,0 +1,15 @@
+lista = []
+print(type(lista))
+print(dir(lista))
+#print(help(list))
+print(len(lista))
+lista.append(1)
+lista.append(5)
+print(lista)
+print(len(lista))
+lista2 = [1,2,'Thiago', 'Pires']
+print(lista2)
+lista2.remove(2)
+print(lista2)
+lista2.reverse()
+print(lista2)
